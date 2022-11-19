@@ -1,0 +1,28 @@
+:root{
+  --White: hsl(0, 0%, 100%);
+  --Black: hsl(0, 0%, 0%);
+  --DarkGray: hsl(0, 0%, 55%);
+  --VeryDarkGray: hsl(0, 0%, 41%);
+  --LightBlue: hsl(228, 45%, 44%);
+  --DarkBlue: hsl(237, 100%, 70%);
+  --Fontsize: 15px;
+  --Fontsize2: 30px;
+  --Padding: 30px;
+  --Weight2: 400;
+  --Weight: 300;
+}
+
+a{
+  font-weight: 500;
+  color: var(--White);
+  text-decoration: inherit;
+}
+@media screen and (max-width: 900px){
+  a{
+    font-size: 35px;
+    color: var(--Black);
+  }
+}
+a:hover {
+  color: #535bf2;
+}
